@@ -129,3 +129,11 @@ body{
 .material-ui-shadow:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+footer {
+    position: absolute;
+    text-align: center;
+    font-size: 1rem;
+    bottom: 0;
+    padding: 5px;
+    line-height: 3vh;
+}
