@@ -145,8 +145,14 @@ color: white;
 footer {
     position: absolute;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
+    color: white;
     bottom: 0;
     padding: 5px;
     line-height: 3vh;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
