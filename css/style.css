@@ -5,10 +5,9 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #19172e;
-    color: white;
+    
     font-family: "PT Sans";
-    justify-content: center;
-    align-items: center;
+    
     min-height: 100vh;
 }
 
