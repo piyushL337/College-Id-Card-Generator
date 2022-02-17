@@ -132,6 +132,7 @@ color: white;
 }
 .id-form__label {
   font-size: 8pt;
+  font-weight: bold;
   line-height: 8pt;
 }
 .material-ui-shadow {
