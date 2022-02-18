@@ -27,7 +27,6 @@ background-color: #4CAF50; /* Green */
   display: inline-block;
   float: left;
   margin-right: 2em;
-  border-style: outset;
 }
 
 .id-card {
@@ -36,6 +35,7 @@ background-color: #4CAF50; /* Green */
   background: #ffffff;
   padding: 10px;
   position: relative;
+ border: 2px solid red;
 }
 .id-card__mugshot {
   position: absolute;
