@@ -6,6 +6,15 @@
     <title>GP JINTUR College Id Generator</title>
     <link rel="stylesheet" href="css/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+<script>
+			function generatePDF() {
+				
+				const element = document.getElementById('id-card');
+				
+				html2pdf().from(element).save();
+			}
+		</script>
 </head>
 
 <body>
@@ -157,7 +166,8 @@
     </div>
 
     <button id="download-button">Download</button>
-    
+
+    <button onclick="generatePDF()">Download as PDF</button>
 <footer class="foo">
         <p>&#x3c; &#47; &#x3e; with ❤️ by 
           <a href="https://api.whatsapp.com/send?phone=919284416552&text=Hello%20Piyush">Piyush Joshi</a>
