@@ -23,14 +23,6 @@ background-color: #4CAF50; /* Green */
   cursor: pointer;
 }
 
-h4 { 
-  font-size: 7pt;
-  font-weight: bold;
- text-align: center;
- color: #1A237E;
- top: 0px;
-}
-
 #id-card {
   display: inline-block;
   float: left;
@@ -111,12 +103,23 @@ h4 {
   content: " • ";
   font-weight: normal;
 }
-.topleft {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
 
+.logo__big {
+color: blue;
+font-size: 7pt;
+font-weight: bold;
+text-align: center;
+
+position: center;
+}
+.logo__small {
+	color: blue;
+  font-size: 8pt;
+    font-weight: bold;
+  position: center;
+  top: -10px;
+  
+}
 .id-form {
 color: white;
 }
