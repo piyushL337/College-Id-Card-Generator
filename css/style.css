@@ -214,8 +214,3 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
-@media print {
-#id-card {
-width: 100%;
-}
-}
