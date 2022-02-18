@@ -59,11 +59,20 @@ document.getElementById('class'),
 document.getElementById('id-card-class'));
 
 
-// Bind weight
+// Bind enrollment no
 bindInputToElement(
 document.getElementById('enrollment'),
 document.getElementById('id-enrollment'));
 
+// Bind roll no
+bindInputToElement(
+document.getElementById('rollno'),
+document.getElementById('id-card-rollno'));
+
+// Bind contact no
+bindInputToElement(
+document.getElementById('contactno'),
+document.getElementById('id-card-mobileno'));
 
 // Bind mugshot
 document.
