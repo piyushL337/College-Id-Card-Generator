@@ -70,9 +70,9 @@ document.getElementById('rollno'),
 document.getElementById('id-card-rollno'));
 
 // Bind contact no
-bindInputToElement(
-document.getElementById('contactno'),
-document.getElementById('id-card-mobileno'));
+// bindInputToElement(
+// document.getElementById('contactno'),
+// ocument.getElementById('id-card-mobileno'));
 
 // Bind mugshot
 document.
