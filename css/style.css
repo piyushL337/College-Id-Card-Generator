@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
 
@@ -143,54 +144,35 @@ position: center;
   top: -10px;
   
 }
-.id-form {
-color: white;
+.inputBox {
+  position: relative;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
 }
-.id-form__row {
-  padding-bottom: 8px;
-}
-.id-form__row--inline {
-  width: 10em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  display: inline-block;
-}
-.id-form__label {
-  font-size: 10pt;
-  font-weight: bold;
-  line-height: 8pt;
-}
-input[type=text] {
-  background-color: white;
-  color: black;
-  border: 2px solid red;
-  border-radius: 4px;
-}
-input[type=number] {
-  background-color: white;
-  color: red;
-  border: 2px solid #CCFFCC;
-  border-radius: 4px;
-}
-input[type=date] {
-  background-color: white;
-  color: blue;
-  border: 2px solid #FFFF99;
-  border-radius: 4px;
-}
-select {
-  // A reset of styles, including removing the default dropdown arrow
-  appearance: none;
-  // Additional resets for further consistency
-  background-color: white;
-  border: none;
-  padding: 0 1em 0 0;
-  margin: 0;
+
+.inputBox input {
+  position: relative;
   width: 100%;
-  font-family: inherit;
-  font-size: inherit;
-  cursor: inherit;
-  line-height: inherit;
+  height: 60px;
+  border: none;
+  margin: 15px 0 15px;
+  padding: 0 20px;
+  font-size: 24px;
+  letter-spacing: 3px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
 }
 .material-ui-shadow {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
