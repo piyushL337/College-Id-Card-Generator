@@ -175,6 +175,9 @@ label {
   float: left;
   width: 25%;
   margin-top: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: 4pt;
 }
 .col-75 {
   float: left;
