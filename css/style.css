@@ -23,6 +23,19 @@ background-color: #4CAF50; /* Green */
   cursor: pointer;
 }
 
+h4 { 
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+ text-align: center;
+ color: #1A237E;
+}
+
+
 #id-card {
   display: inline-block;
   float: left;
@@ -104,20 +117,7 @@ background-color: #4CAF50; /* Green */
   font-weight: normal;
 }
 
-.logo__big {
-	color: blue;
-  font-size: 7pt;
-  font-weight: bold;
-  position: center;
-}
-.logo__small {
-	color: blue;
-  font-size: 8pt;
-    font-weight: bold;
-  position: center;
-  top: -10px;
-  
-}
+
 .id-form {
 color: white;
 }
