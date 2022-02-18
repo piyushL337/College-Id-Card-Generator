@@ -8,7 +8,7 @@ const downloadCharacterSheet = () => {
     // document.write('<img src="'+img+'"/>');
     var link = document.createElement('a');
     link.download = 'filename.png';
-    link.href = canvas.toDataURL();
+    link.href = canvas.toDataURL('image/jpeg', 1.0);
     link.click();
   });
 
