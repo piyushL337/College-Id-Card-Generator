@@ -87,3 +87,10 @@ addEventListener('change', function () {
     FR.readAsDataURL(this.files[0]);
   }
 });
+// Html2Pdf
+function generatePDF() {
+				
+				const element = document.getElementById('id-card');
+				
+				html2pdf().from(element).save();
+			}
