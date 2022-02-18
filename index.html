@@ -104,73 +104,72 @@ function generatePDF() {
  -->
         </div>
     </div>
-<div class="container">
 
-<div class="row">
-<div class="col-25">
-        <label for="fname">Full Name</label>
-</div>
-<div class="inputBox col-75">
-        <input type="text" name="" placeholder="Write Your Full Name"  id="name">
-    </div>
-</div>
-<div class="row">
-<div class="col-25">
-        <label for="fname">Date of Birth</label>
-</div>
-    <div class="inputBox col-75">
-        <input type="date" name="" placeholder="Date Of Birth" id="date-of-birth">
-    </div>
-</div>
-<div class="row">
-<div class="col-25">
-        <label for="fname">Gender</label>
-</div>
-    <div class="inputBox" col-75>
-      <select id="gender">
+    <div id="id-form">
+        <div class="id-form">
+            <div class="id-form__row id-form__row--inline">
+                <div class="id-form__label">Name</div>
+                <div class="id-form__input">
+                    <input type="text" id="name" placeholder="Enter your Full Name">
+                </div>
+            </div>
+            <div class="id-form__row id-form__row--inline">
+                <div class="id-form__label">Date of Birth</div>
+                <div class="id-form__input">
+                    <input type="date" id="date-of-birth" placeholder="Date of Birth">
+                </div>
+            </div>
+            <div></div>
+            <div class="id-form__row id-form__row--inline">
+                <div class="id-form__label">Gender</div>
+                <div class="id-form__input">
+                    <select id="gender">
                         <option value="M">Male</option>
                         <option value="F">Female</option>
                     </select>
+                </div>
+            </div>
+            <div class="id-form__row id-form__row--inline">
+                <div class="id-form__label">Class</div>
+                <div class="id-form__input">
+                    <input type="text" id="class" placeholder="Class ie. CO6I">
+                </div>
+            </div>
+            <div></div>
+            <div class="id-form__row id-form__row--inline">
+                <div class="id-form__label">Passport/Image</div>
+                <div class="id-form__input">
+                    <input type="file" id="mugshot" accept="image/*">
+                </div>
+            </div>
+            <div class="id-form__row id-form__row--inline">
+                <div class="id-form__label">Enrollment No</div>
+                <div class="id-form__input">
+                    <input type="number" id="enrollment" placeholder="Enter your enrollment no">
+                </div>
+            </div>
+  <div class="id-form__row id-form__row--inline">
+                <div class="id-form__label">Roll No No</div>
+                <div class="id-form__input">
+                    <input type="number" id="rollno" placeholder="Enter your roll no">
+                </div>
+            </div>
+            <!--
+  <div class="id-form__row id-form__row--inline">
+                <div class="id-form__label">Contact No</div>
+                <div class="id-form__input">
+                    <input type="number" id="contactno" placeholder="Enter your mobile number"> 
+                </div>
+            </div>
+            -->
+        </div>
     </div>
-</div>
-<div class="row">
-<div class="col-25">
-        <label for="fname">Class</label>
-</div>
-    <div class="inputBox col-75">
-        <input type="text" id="class" placeholder="Class ie. CO6I">
-    </div>
-</div>
-<div class="row">
-<div class="col-25">
-        <label for="fname">Passport/Image</label>
-</div>
-<div class="inputBox col-75">
-      <input type="file" id="mugshot" accept="image/*">
-    </div>
-</div>
-<div class="row">
-<div class="col-25">
-        <label for="fname">Enrollment No</label>
-</div>
-<div class="inputBox col-75">
-        <input type="number" id="enrollment" placeholder="Enter your enrollment no">
-    </div>
-</div>
-<div class="row">
-<div class="col-25">
-        <label for="fname">Roll No</label>
-</div>
-    <div class="inputBox col-75">
-        <input type="number" id="rollno" placeholder="Enter your roll no">
-    </div>
-</div>
 <center>
 
     <button id="download-button">Download as Image</button>
 <button onclick="generatePDF()" id="downloadpdf">Download as PDF</button>
 </center>
-    </div>
+    
 <footer class="foo">
         <p>&#x3c; &#47; &#x3e; with ❤️ by 
           <a href="https://api.whatsapp.com/send?phone=919284416552&text=Hello%20Piyush">Piyush Joshi</a>
