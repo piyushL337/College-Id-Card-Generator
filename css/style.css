@@ -146,14 +146,20 @@ color: white;
 input[type=text] {
   background-color: white;
   color: black;
+  border: 2px solid red;
+  border-radius: 4px;
 }
 input[type=number] {
   background-color: white;
   color: red;
+  border: 2px solid #CCFFCC;
+  border-radius: 4px;
 }
 input[type=date] {
   background-color: white;
   color: blue;
+  border: 2px solid #FFFF99;
+  border-radius: 4px;
 }
 select {
   // A reset of styles, including removing the default dropdown arrow
