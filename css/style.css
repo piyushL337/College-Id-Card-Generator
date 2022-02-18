@@ -27,6 +27,7 @@ background-color: #4CAF50; /* Green */
   display: inline-block;
   float: left;
   margin-right: 2em;
+  border-style: outset;
 }
 
 .id-card {
