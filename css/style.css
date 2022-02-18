@@ -162,13 +162,18 @@ position: center;
   margin: 15px 0 15px;
   padding: 0 20px;
   font-size: 24px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   box-sizing: border-box;
-  border-radius: 8px;
+  border-radius: 4px;
   color: white;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 1px;
   background: rgba(255, 255, 255, 0.05);
+}
+.id-formm {
+  border-radius: 5px;
+  width: auto;
+  padding: 20px;
 }
 
 ::-webkit-input-placeholder {
