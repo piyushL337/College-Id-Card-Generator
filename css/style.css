@@ -151,6 +151,10 @@ input[type=number] {
   background-color: white;
   color: red;
 }
+input[type=date] {
+  background-color: white;
+  color: blue;
+}
 select {
   // A reset of styles, including removing the default dropdown arrow
   appearance: none;
