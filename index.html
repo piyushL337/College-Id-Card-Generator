@@ -105,65 +105,87 @@ function generatePDF() {
         </div>
     </div>
 
-    <div id="id-form">
-        <div class="id-form">
-            <div class="id-form__row id-form__row--inline">
-                <div class="id-form__label">Name</div>
-                <div class="id-form__input">
-                    <input type="text" id="name" placeholder="Enter your Full Name">
-                </div>
-            </div>
-            <div class="id-form__row id-form__row--inline">
-                <div class="id-form__label">Date of Birth</div>
-                <div class="id-form__input">
-                    <input type="date" id="date-of-birth" placeholder="Date of Birth">
-                </div>
-            </div>
-            <div></div>
-            <div class="id-form__row id-form__row--inline">
-                <div class="id-form__label">Gender</div>
-                <div class="id-form__input">
-                    <select id="gender">
-                        <option value="M">Male</option>
-                        <option value="F">Female</option>
-                    </select>
-                </div>
-            </div>
-            <div class="id-form__row id-form__row--inline">
-                <div class="id-form__label">Class</div>
-                <div class="id-form__input">
-                    <input type="text" id="class" placeholder="Class ie. CO6I">
-                </div>
-            </div>
-            <div></div>
-            <div class="id-form__row id-form__row--inline">
-                <div class="id-form__label">Passport/Image</div>
-                <div class="id-form__input">
-                    <input type="file" id="mugshot" accept="image/*">
-                </div>
-            </div>
-            <div class="id-form__row id-form__row--inline">
-                <div class="id-form__label">Enrollment No</div>
-                <div class="id-form__input">
-                    <input type="number" id="enrollment" placeholder="Enter your enrollment no">
-                </div>
-            </div>
-  <div class="id-form__row id-form__row--inline">
-                <div class="id-form__label">Roll No No</div>
-                <div class="id-form__input">
-                    <input type="number" id="rollno" placeholder="Enter your roll no">
-                </div>
-            </div>
-            <!--
-  <div class="id-form__row id-form__row--inline">
-                <div class="id-form__label">Contact No</div>
-                <div class="id-form__input">
-                    <input type="number" id="contactno" placeholder="Enter your mobile number"> 
-                </div>
-            </div>
-            -->
-        </div>
+    <div class="container">
+  <header class="header">
+  </header>
+  <form>
+  
+  <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your full name"
+        required
+      />
     </div>
+    
+    <div class="form-group">
+      <label id="dob-label" for="dob">Date of Birth</label>
+      <input
+        type="date"
+        name="date-of-birth"
+        id="date-of-birth"
+        class="form-control"
+        placeholder="Enter your DOB"
+        required
+      />
+    </div>
+    
+    <div class="form-group">
+      <p>Gender</p>
+      <select id="dropdown" name="gender" class="form-control" required>
+        <option disabled selected value>Select Gender</option>
+                 <option value="M">Male</option>
+                        <option value="F">Female</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label id="class-label" >Class</label>
+      <input
+        type="text"
+        name="class"
+        id="class"
+        class="form-control"
+        placeholder="Enter your class ie. CO6I"
+        required
+      />
+    </div>
+    
+    <div class="form-group">
+      <label id="mugshot-label" >Passport/Image</label>
+       <input type="file" id="mugshot" accept="image/*">
+    </div>
+    
+    <div class="form-group">
+      <label id="enrollment-label" >Enrollment No</label>
+      <input
+        type="number"
+        name="enrollment"
+        id="enrollment"
+        class="form-control"
+        placeholder="Enter your enrollment no"
+        required
+      />
+    </div>
+    
+    <div class="form-group">
+      <label id="rollno-label">Roll No</label>
+      <input
+        type="number"
+        name="rollno"
+        id="rollno"
+        class="form-control"
+        placeholder="Enter your roll no"
+        required
+      />
+    </div>
+    
+    </form>
+</div>
 <center>
 
     <button id="download-button">Download as Image</button>
