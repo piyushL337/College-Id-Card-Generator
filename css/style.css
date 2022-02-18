@@ -133,9 +133,14 @@ color: white;
   display: inline-block;
 }
 .id-form__label {
-  font-size: 8pt;
+  font-size: 10pt;
   font-weight: bold;
   line-height: 8pt;
+}
+.id-form__input {
+  
+  color:white;
+  
 }
 .material-ui-shadow {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -146,7 +151,7 @@ color: white;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 footer {
-    position: absolute;
+    
     text-align: center;
     font-size: 1rem;
     color: white;
