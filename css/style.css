@@ -36,8 +36,10 @@ background-color: #FF4500; /* orangeRed */
 }
 #id-card {
   display: inline-block;
-  float: left;
+  float: center;
   margin-right: 2em;
+  top: 10;
+  
 }
 
 .id-card {
