@@ -87,6 +87,12 @@ background-color: #4CAF50; /* Green */
   margin-left: 30px;
   width: 100px;
 }
+.id-card__details--stamp {
+  float: right;
+  bottom: 0;
+  font-size: 7pt;
+  color: #2D005D;
+}
 .id-card__detail {
   height: 10px;
   padding-top: 4px;
