@@ -146,6 +146,7 @@ position: center;
 p {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: white;
 }
 
 label {
@@ -153,6 +154,7 @@ label {
   align-items: center;
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
+  color: white;
 }
 input,
 button,
@@ -162,10 +164,6 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
-
-button {
-  border: none;
 }
 
 .container {
